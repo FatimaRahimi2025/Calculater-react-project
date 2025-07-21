@@ -7,7 +7,7 @@ function App(){
       <div className='p-[20px] rounded-lg bg-white'>
         <form action="">
           <div className='flex mt-[5px] mr-[0] mb-[15px] ml-[0] justify-end'>
-            <input className=' flex-1 text-right outline-none border-none w-[60px] h-[60px] size-[25px] bg-gray-500 rounded-lg' type="text" value={value}/>
+            <input className=' flex-1 text-right outline-none border-none w-[60px] h-[60px] size-[25px] bg-gray-500 rounded-lg text-white font-bold' type="text" value={value}/>
           </div>
           <div>
             <input className='boder-none w-[60px] h-[60px] size-[16px] bg-blue-400 m-[2px] rounded-lg font-bold hover:bg-purple-500 text-white' type="button" value="AC" onClick={e => setValue('')} />
